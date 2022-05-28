@@ -1,0 +1,9 @@
+#' @title A simple falsification test for the Two-Sample Mendelian randomisation 'same population' assumption.
+#' @description This package runs a simple falsification test for the 'same population' assumption made by 2SMR. In order for 2SMR estimates to be meaningful, effects must be drawn from the same population. Intuitively, if this were true, then there would only be chance differences between effect estimates for the same phenotype from the two studies. Hence, if data on the exposure and/or outcome (or a different phenotype) is available from both the exposure and outcome samples we can test the 'same population' assumption by testing if the average difference in SNP effects is zero. For more information please see the preprint (insert DIO).  n.b. this package requires the installation of the 'meta' package.
+#' @author Benji Woolf, benjamin.woolf@bristol.ac.uk
+#' @keywords 2SMR
+"_PACKAGE"
+
+## usethis namespace: start
+## usethis namespace: end
+NULL
