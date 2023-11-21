@@ -1,12 +1,12 @@
 Package: MRSamePopTest
 Title: A simple falsification test for the Two-Sample Mendelian randomisation 'same population' assumption.
 Version: 0.0.0.9000
-Authors@R: 
+Authors@R:
   person("Benjamin", "Woolf", , "benjamin.woolf@bristol.ac.uk", role = c("aut", "cre"),
          comment = c(ORCID = "0000-0002-1505-2570"))
-Description: This package runs a simple falsification test for the 'same population' assumption made by 2SMR. In order for 2SMR estimates to be meaningful, effects must be drawn from the same population. Intuitively, if this were true, then there would only be chance differences between effect estimates for the same phenotype from the two studies. Hence, if data on the exposure and/or outcome (or a different phenotype) is available from both the exposure and outcome samples we can test the 'same population' assumption by testing if the average difference in SNP effects is zero. For more information please see the preprint (insert DIO).  n.b. this package requires the installation of the 'meta' package. 
-License: use_cc0_license("Benjamin Woolf") 
+Description: This package runs a simple falsification test for the 'same population' assumption made by 2SMR. In order for 2SMR estimates to be meaningful, effects must be drawn from the same population. Intuitively, if this were true, then there would only be chance differences between effect estimates for the same phenotype from the two studies. Hence, if data on the exposure and/or outcome (or a different phenotype) is available from both the exposure and outcome samples we can test the 'same population' assumption by testing if the average difference in SNP effects is zero. For more information please see the preprint (insert DIO).  n.b. this package requires the installation of the 'meta' package.
+License: use_cc0_license("Benjamin Woolf")
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
-Citation: TBA 
+RoxygenNote: 7.2.3
+Citaton: Woolf B, Zagkos L, Sallis H, Munafo M, Gill D. MRSamePopTest: Introducing a simple falsification test for the Two-Sample Mendelian randomisation ‘same population’assumption.

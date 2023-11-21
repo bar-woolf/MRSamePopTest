@@ -10,6 +10,7 @@ same_pop_test(
   SEexp,
   SEout,
   SNPlist,
+  Fisher = F,
   Random = T,
   Fixed = T,
   sm = "md"
@@ -26,6 +27,8 @@ same_pop_test(
 
 \item{SNPlist}{list of rsid's for the SNPs used.}
 
+\item{Fisher}{Logical indicating if to Fisher's methods (meta-analysis of p-vlalues) to combine differences}
+
 \item{Random}{Logical indicating if a random effects meta-analysis should run, defult = T.}
 
 \item{Fixed}{Logical indicating if a fiexed effects meta-analysis should run, defult = T.}
@@ -33,7 +36,7 @@ same_pop_test(
 \item{sm}{A character string indicating underlying summary measure, e.g., "RD", "RR", "OR", "ASD", "HR", "MD", "SMD", or "ROM".}
 }
 \description{
-This function is a falsification test for the 'same population' assumption made by Two-Sample Mendelian randomisation.
+This function is a falsification test for the 'same population' assumption made by Two-Sample Mendelian randomisation. Please note that this function tests the absolute difference in SNP effects such that negative effects imply that the exposure GWAS has smaller betas than the outcome GWAS
 }
 \examples{
 library(TwoSampleMR)
